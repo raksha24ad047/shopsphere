@@ -8,22 +8,220 @@ import { products } from "./products.js";
 export function renderHome() {
 
     return `
-        <section class="hero">
+        <section class="hero-section">
 
-            <h1>Welcome to ShopSphere 🛍️</h1>
+            <div class="hero-content">
 
-            <p>
-                Discover quality products across electronics,
-                fashion and home essentials.
-            </p>
+                <span class="hero-badge">
+                    ✨ Welcome to the future of shopping
+                </span>
 
-            <a href="#products" class="btn" data-route>
-                Explore Products
-            </a>
+                <h1>
+                    Your everyday shopping,
+                    <span>reimagined.</span>
+                </h1>
+
+                <p>
+                    Discover carefully selected products across
+                    electronics, fashion and home essentials —
+                    all in one simple shopping experience.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#products"
+                        class="btn hero-primary"
+                        data-route>
+                        Explore Products →
+                    </a>
+
+                    <a
+                        href="#about"
+                        class="btn hero-secondary"
+                        data-route>
+                        Learn More
+                    </a>
+
+                </div>
+
+                <div class="hero-stats">
+
+                    <div>
+                        <strong>8+</strong>
+                        <span>Products</span>
+                    </div>
+
+                    <div>
+                        <strong>3</strong>
+                        <span>Categories</span>
+                    </div>
+
+                    <div>
+                        <strong>24/7</strong>
+                        <span>Shopping</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-visual">
+
+                <div class="floating-card card-one">
+                    🎧
+                    <span>Electronics</span>
+                </div>
+
+                <div class="floating-card card-two">
+                    👟
+                    <span>Fashion</span>
+                </div>
+
+                <div class="floating-card card-three">
+                    ☕
+                    <span>Home</span>
+                </div>
+
+                <div class="hero-circle">
+                    🛍️
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="categories-section">
+
+            <div class="section-heading">
+
+                <span>EXPLORE</span>
+
+                <h2>Shop by Category</h2>
+
+                <p>
+                    Find exactly what you're looking for.
+                </p>
+
+            </div>
+
+
+            <div class="category-cards">
+
+                <a
+                    href="#products"
+                    class="category-card"
+                    data-route>
+
+                    <div class="category-icon">
+                        🎧
+                    </div>
+
+                    <h3>Electronics</h3>
+
+                    <p>
+                        Smart devices & accessories
+                    </p>
+
+                    <span>Explore →</span>
+
+                </a>
+
+
+                <a
+                    href="#products"
+                    class="category-card"
+                    data-route>
+
+                    <div class="category-icon">
+                        👟
+                    </div>
+
+                    <h3>Fashion</h3>
+
+                    <p>
+                        Style for every occasion
+                    </p>
+
+                    <span>Explore →</span>
+
+                </a>
+
+
+                <a
+                    href="#products"
+                    class="category-card"
+                    data-route>
+
+                    <div class="category-icon">
+                        🏠
+                    </div>
+
+                    <h3>Home</h3>
+
+                    <p>
+                        Make your space better
+                    </p>
+
+                    <span>Explore →</span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <section class="why-section">
+
+            <div class="section-heading">
+
+                <span>WHY SHOPSPHERE?</span>
+
+                <h2>Shopping made simple.</h2>
+
+            </div>
+
+
+            <div class="features">
+
+                <div class="feature">
+                    <div>⚡</div>
+                    <h3>Fast Experience</h3>
+                    <p>
+                        Lightweight and responsive design
+                        for a smooth browsing experience.
+                    </p>
+                </div>
+
+                <div class="feature">
+                    <div>🔍</div>
+                    <h3>Easy Discovery</h3>
+                    <p>
+                        Search and filter products quickly
+                        to find what you need.
+                    </p>
+                </div>
+
+                <div class="feature">
+                    <div>📱</div>
+                    <h3>Responsive Design</h3>
+                    <p>
+                        Enjoy ShopSphere on desktop,
+                        tablet and mobile devices.
+                    </p>
+                </div>
+
+            </div>
 
         </section>
     `;
 }
+
+ 
+ 
 
 
 /* ========================================
