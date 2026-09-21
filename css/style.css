@@ -810,12 +810,12 @@ main#app {
     .card-three {
         display: none;
     }
-}
+
     .categories-section,
     .why-section {
         padding: 65px 20px;
-    
-}
+    }
+
     .product-detail-info {
         padding: 10px 0;
     }
